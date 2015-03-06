@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A6E41B81A8AC0EC00C65768 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E41B71A8AC0EC00C65768 /* FactBook.swift */; };
 		9A99F31E1A895F3100896E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F31D1A895F3100896E63 /* AppDelegate.swift */; };
 		9A99F3201A895F3100896E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F31F1A895F3100896E63 /* ViewController.swift */; };
 		9A99F3231A895F3100896E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F3211A895F3100896E63 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A6E41B71A8AC0EC00C65768 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		9A99F3181A895F3100896E63 /* AppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A99F31C1A895F3100896E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A99F31D1A895F3100896E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				9A99F31D1A895F3100896E63 /* AppDelegate.swift */,
 				9A99F31F1A895F3100896E63 /* ViewController.swift */,
+				9A6E41B71A8AC0EC00C65768 /* FactBook.swift */,
 				9A99F3211A895F3100896E63 /* Main.storyboard */,
 				9A99F3241A895F3100896E63 /* Images.xcassets */,
 				9A99F3261A895F3100896E63 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6E41B81A8AC0EC00C65768 /* FactBook.swift in Sources */,
 				9A99F3201A895F3100896E63 /* ViewController.swift in Sources */,
 				9A99F31E1A895F3100896E63 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				9A99F3391A895F3100896E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A99F33A1A895F3100896E63 /* Build configuration list for PBXNativeTarget "AppSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				9A99F33C1A895F3100896E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
